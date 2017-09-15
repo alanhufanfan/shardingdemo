@@ -1,0 +1,316 @@
+2017-09-15 14:23:14.604 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 14:23:14.610 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 14:23:14.616 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 14:23:14.630 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 14:23:14.633 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} inited
+2017-09-15 14:23:15.214 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 14:23:15.313 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 14:23:15.347 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 14:23:15.355 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 14:23:15.363 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 14:23:15.416 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 14:23:15.423 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 14:23:15.429 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ab14cb9] was not registered for synchronization because synchronization is not active
+2017-09-15 14:23:15.436 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@5df417a7] will not be managed by Spring
+2017-09-15 14:23:15.491 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 14:23:15.520 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 14:23:15.600 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ab14cb9]
+2017-09-15 14:23:15.607 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 14:23:15.608 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} closed
+2017-09-15 14:23:15.608 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 14:23:15.609 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 14:52:47.406 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 14:52:47.412 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 14:52:47.418 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 14:52:47.432 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 14:52:47.435 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} inited
+2017-09-15 14:52:48.013 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 14:52:48.094 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 14:52:48.125 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 14:52:48.132 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 14:52:48.143 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 14:52:48.194 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 14:52:48.200 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 14:52:48.205 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439a8f59] was not registered for synchronization because synchronization is not active
+2017-09-15 14:52:48.211 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@7f69d591] will not be managed by Spring
+2017-09-15 14:52:48.215 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 14:52:48.234 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 14:52:48.334 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439a8f59]
+2017-09-15 14:52:48.343 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 14:52:48.344 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} closed
+2017-09-15 14:52:48.345 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 14:52:48.345 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 14:54:34.991 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 14:54:35.009 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 14:54:35.027 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 14:54:35.047 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 14:54:35.052 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} inited
+2017-09-15 14:54:35.623 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 14:54:35.707 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 14:54:35.737 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 14:54:35.745 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 14:54:35.752 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 14:54:35.808 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 14:54:35.808 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 14:54:35.814 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 14:54:35.818 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439a8f59] was not registered for synchronization because synchronization is not active
+2017-09-15 14:54:35.825 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@7f69d591] will not be managed by Spring
+2017-09-15 14:54:35.836 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 14:54:35.836 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 14:54:35.860 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 14:54:35.860 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 14:54:35.965 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439a8f59]
+2017-09-15 14:54:35.972 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 14:54:35.973 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} closed
+2017-09-15 14:54:35.974 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 14:54:35.974 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 14:57:45.314 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 14:57:45.323 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 14:57:45.330 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 14:57:45.349 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 14:57:45.919 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 14:57:46.001 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 14:57:46.027 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 14:57:46.035 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 14:57:46.044 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 14:57:46.099 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 14:57:46.099 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 14:57:46.105 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 14:57:46.109 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f23a3a0] was not registered for synchronization because synchronization is not active
+2017-09-15 14:57:46.115 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@2f162cc0] will not be managed by Spring
+2017-09-15 14:57:46.119 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 14:57:46.119 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 14:57:46.139 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 14:57:46.139 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 14:57:46.233 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f23a3a0]
+2017-09-15 14:57:46.242 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 14:57:46.243 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 14:57:46.243 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 14:59:15.087 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 14:59:15.271 [main] ERROR c.a.druid.pool.DruidDataSource - {dataSource-1} init error
+java.sql.SQLException: unkow jdbc driver : ${jdbc_url0}
+	at com.alibaba.druid.util.JdbcUtils.getDriverClassName(JdbcUtils.java:466) ~[druid-1.1.3.jar:1.1.3]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:779) ~[druid-1.1.3.jar:1.1.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1706) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1645) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:299) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:129) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:407) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:165) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:299) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:129) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:634) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1143) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1046) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:120) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:678) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:520) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117) [junit-rt.jar:na]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:253) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84) [junit-rt.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:na]
+2017-09-15 15:05:59.355 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 15:05:59.364 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 15:05:59.373 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 15:05:59.391 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 15:05:59.972 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 15:06:00.056 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 15:06:00.081 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 15:06:00.090 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 15:06:00.097 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 15:06:00.151 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:06:00.151 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:06:00.160 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 15:06:00.164 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f23a3a0] was not registered for synchronization because synchronization is not active
+2017-09-15 15:06:00.169 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@2f162cc0] will not be managed by Spring
+2017-09-15 15:06:00.174 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:06:00.174 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:06:00.192 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:06:00.192 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:06:00.290 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f23a3a0]
+2017-09-15 15:06:00.297 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 15:06:00.298 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 15:06:00.299 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 15:10:58.432 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 15:10:58.438 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 15:10:58.444 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 15:10:58.458 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 15:10:59.018 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 15:10:59.107 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 15:10:59.137 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 15:10:59.145 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 15:10:59.152 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 15:10:59.205 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:10:59.205 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:10:59.213 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 15:10:59.217 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72ccd81a] was not registered for synchronization because synchronization is not active
+2017-09-15 15:10:59.224 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@7876d598] will not be managed by Spring
+2017-09-15 15:10:59.233 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:10:59.233 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:10:59.252 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:10:59.252 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:10:59.335 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72ccd81a]
+2017-09-15 15:10:59.345 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 15:10:59.346 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 15:10:59.346 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 15:20:50.127 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 15:20:50.134 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 15:20:50.141 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 15:20:50.155 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 15:20:50.727 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 15:20:50.812 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 15:20:50.842 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 15:20:50.852 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 15:20:50.874 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 15:20:50.925 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:20:50.925 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:20:50.931 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 15:20:50.935 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fb97279] was not registered for synchronization because synchronization is not active
+2017-09-15 15:20:50.941 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@7c041b41] will not be managed by Spring
+2017-09-15 15:20:50.944 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:20:50.944 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:20:50.963 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:20:50.963 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:20:50.996 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fb97279]
+2017-09-15 15:20:51.003 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 15:20:51.004 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 15:20:51.004 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 15:26:03.641 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-09-15 15:26:03.648 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-09-15 15:26:03.656 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-09-15 15:26:03.672 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-09-15 15:26:04.207 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-09-15 15:26:04.296 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\BaseDictMapper.xml]'
+2017-09-15 15:26:04.325 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\CustomerMapper.xml]'
+2017-09-15 15:26:04.336 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderItemMapper.xml]'
+2017-09-15 15:26:04.343 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\IdeaProjects\crm\target\classes\com\jinyu\dao\mapper\OrderMapper.xml]'
+2017-09-15 15:26:04.398 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:26:04.406 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2017-09-15 15:26:04.410 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fb97279] was not registered for synchronization because synchronization is not active
+2017-09-15 15:26:04.417 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@7c041b41] will not be managed by Spring
+2017-09-15 15:26:04.422 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:26:04.439 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:26:04.470 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fb97279]
+2017-09-15 15:26:04.478 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-09-15 15:26:04.478 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-09-15 15:26:04.478 [Thread-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-09-15 15:26:38.076 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:26:38.097 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:26:38.115 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:40:13.956 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:40:13.974 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:40:13.988 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:42:05.847 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:42:05.883 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:42:05.966 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:43:10.191 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:43:10.231 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order_1(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:43:10.262 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:43:10.267 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - <==    Updates: 1
+2017-09-15 15:44:58.573 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:44:58.591 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:44:58.606 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1001(Long), 1(Long)
+2017-09-15 15:45:28.716 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:45:28.738 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:45:28.755 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1002(Long), 2(Long)
+2017-09-15 15:47:42.542 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:47:42.563 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:47:42.580 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1002(Long), 2(Long)
+2017-09-15 15:47:42.725 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - <==    Updates: 1
+2017-09-15 15:50:06.752 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:50:06.774 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:50:06.791 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1003(Long), 3(Long)
+2017-09-15 15:56:43.133 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:56:43.156 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:56:43.173 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1003(Long), 3(Long)
+2017-09-15 15:57:19.763 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 15:57:19.785 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 15:57:19.801 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1003(Long), 3(Long)
+2017-09-15 16:00:29.243 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 16:00:29.262 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 16:00:29.276 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1003(Long), 3(Long)
+2017-09-15 16:00:50.520 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 16:00:50.541 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 16:00:50.557 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1004(Long), 4(Long)
+2017-09-15 16:00:50.756 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - <==    Updates: 1
+2017-09-15 16:01:10.465 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 16:01:10.485 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 16:01:10.501 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1006(Long), 6(Long)
+2017-09-15 16:01:10.702 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - <==    Updates: 1
+2017-09-15 16:02:01.751 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 16:02:01.770 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 16:02:01.788 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1005(Long), 5(Long)
+2017-09-15 16:02:01.993 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - <==    Updates: 1
+2017-09-15 16:04:38.023 [main] INFO  c.j.service.impl.OrderServiceImpl - 进入addOrder
+2017-09-15 16:04:38.044 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==>  Preparing: INSERT INTO t_order(`order_id`,`user_id`) VALUES (?,?) 
+2017-09-15 16:04:38.058 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - ==> Parameters: 1008(Long), 8(Long)
+2017-09-15 16:04:38.315 [main] DEBUG c.j.dao.mapper.OrderMapper.insert - <==    Updates: 1

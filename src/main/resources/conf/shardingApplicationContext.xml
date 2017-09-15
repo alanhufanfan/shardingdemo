@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rdb="http://www.dangdang.com/schema/ddframe/rdb"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.dangdang.com/schema/ddframe/rdb http://www.dangdang.com/schema/ddframe/rdb/rdb.xsd">
+
+    <import resource="classpath:conf/shardingDatasource-config.xml"/>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="shardingDataSource"/>
+        <property name="mapperLocations" value="com/jinyu/dao/mapper/*.xml"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.jinyu.dao.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+
+    <!-- 使用表达式方式 -->
+    <!--每个表，一个库策略+一个表策略 -->
+    <!--库规则，两个库sharding0和sharding1-->
+    <!--<rdb:strategy id="orderDataSourceRule" sharding-columns="order_id" algorithm-expression="sharding_${order_id.longValue() % 2}"/>-->
+    <!--表规则,order_1和order_0-->
+    <rdb:strategy id="orderTableRule" sharding-columns="order_id" algorithm-expression="t_order_${order_id.longValue() % 2}"/>
+
+    <!--<rdb:strategy id="orderItemDataSourceRule" sharding-columns="item_id" algorithm-expression="sharding_${item_id.longValue() % 2}"/>-->
+    <rdb:strategy id="orderItemTableRule" sharding-columns="item_id" algorithm-expression="t_order_item_${item_id.longValue() % 2}"/>
+
+    <rdb:data-source id="shardingDataSource">
+        <!--<rdb:sharding-rule data-sources="sharding_0,sharding_1">-->
+        <rdb:sharding-rule data-sources="sharding_0">
+            <rdb:table-rules>
+                <!--<rdb:table-rule logic-table="t_order" actual-tables="sharding_${0..1}.t_order_${0..1}" database-strategy="orderDataSourceRule" table-strategy="orderTableRule"/>-->
+                <rdb:table-rule logic-table="t_order" actual-tables="t_order_${0..1}" table-strategy="orderTableRule" />
+                <rdb:table-rule logic-table="t_order_item" actual-tables="t_order_item_${0..1}" table-strategy="orderItemTableRule"/>
+            </rdb:table-rules>
+            <!--<rdb:default-database-strategy sharding-columns="none" algorithm-class="com.dangdang.ddframe.rdb.sharding.api.strategy.database.NoneDatabaseShardingAlgorithm"/>-->
+            <!--<rdb:default-table-strategy sharding-columns="none" algorithm-class="com.dangdang.ddframe.rdb.sharding.api.strategy.table.NoneTableShardingAlgorithm"/>-->
+        </rdb:sharding-rule>
+        <rdb:props>
+            <prop key="metrics.enable">false</prop>
+        </rdb:props>
+    </rdb:data-source>
+
+
+
+    <!-- 配置Mapper扫描，配置mapper的bean，要在service里被装配使用 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.jinyu.dao.mapper"/>
+    </bean>
+    <!--配置service扫描，配置service的bean，在controller里被装配使用-->
+    <context:component-scan base-package="com.jinyu.service"/>
+</beans>
